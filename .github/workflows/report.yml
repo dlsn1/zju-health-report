@@ -3,7 +3,7 @@ name: report
 on:
   workflow_dispatch:  # 手动触发
   schedule:
-    - cron: '10 16 * * *' # 每天 0 点 10 分触发
+    - cron: '17 16 * * *' # 每天 0 点 10 分触发
     # 这里表示每天的 UTC 16:10 （即北京时间 0:10）触发
     # 具体的时间格式可以参考这里：https://crontab.guru/
 
